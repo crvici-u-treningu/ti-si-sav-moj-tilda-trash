@@ -1,0 +1,78 @@
+******************************************************************************************************************************
+
+  OVAJ FAJL JE NAJBOLJE OTVORITI U SUBLIMEU, PA DA VAM KONZOLA BUDE SLOBODNA. POKRENITE:
+
+    subl SUBL.ME
+
+  I TEK ONDA RADITE.
+
+******************************************************************************************************************************
+
+1. Blago zagrevanje. Saznati koliko redova ima u ovom fajlu (CAT.ME), a rezultat proslediti u fajl koji se zove "duzina.rezultat"
+
+
+
+2. Zagrevanje. Ispitajte sta se desava kad cat komandi prosledite vise od jednog fajla odjednom, recimo:
+
+	cat a b c d
+
+   sa ta cetiri fajla koja sam vam vec pripremio u ovom direktorijumu. Ako imate sumnji, probajte i sa svojim
+   fajlovima ili tldr/man dokumentacijom. 
+
+   Jednom kad ste sigurne da to razumete, spojite fajlove iz ovog foldera zvane "magicne" i "reci" u jedan 
+   fajl koji se zove "abrakadabra". Pokrenite taj fajl tako sto cete mu prvo dati 777 prava, a zatim pokrenuti sa:
+
+	./abrakadabra
+
+   Rezultat zatim ubacite u fajl koji se zove "abrakadabra.rezultat".
+
+
+
+3. Zadatak. Grep moze da se koristi sa mnogo raznih opcija. Izmedju ostalog, mozete da koristite znakove ".", "^" i "$".
+   Da biste naznacile da trazite nesto sto pocinje ili se zavrsava sa nekim slovom, koristimo "^" i "$". Recimo:
+
+	grep "^zs" words
+
+   ce potraziti bilo sta sto iskljucivo pocinje sa "zs". Ako grepu ne stavite ovo do znanja, naci ce sve reci koje
+   sadrze "zs" u sebi. Poredite, recimo, rezultate
+
+	grep "^zs" words 						grep "zs" words
+
+   da biste bile sigurne da razumete.
+
+   Na isti nacin, $ se moze staviti na kraj stringa da bi ste rekle da zelite reci koje se zavrsavaju nekako:
+
+	grep "zz$" words
+
+   ce vratiti listu svih reci koje se zavrsavaju na zz. Uporedite to sa listom bez tog simbola.
+
+   Tacka u stringu znaci "bilo koje jedno slovo". Recimo:
+
+	grep "^a.h$" words
+
+   ce naci samo one reci koje pocinju slovom a, imaju jedno slovo u sredini, a zatim se odmah zavrsavaju slovom h.
+
+   Vezbajte ovo sa razlicitim recima dok ne pohvatate sve ovo, a onda predjite na sledeci zadatak:
+
+    Pomozite Ani da resi tesku igru vesalica koju ste napisale u C#-u. Ana jos uvek igra to, da. Ostao joj je jedan zivot
+    a evo sta zna zasad: rec pocinje na "s", ima dva nepoznata slova, pa "o", pa jedno nepoznato, praceno sa "ly", a onda
+    dva nepoznata i "d" na kraju. Sigurni smo da ova rec postoji, ali ne zna koja je, a sigurno nece uspeti da pogodi iz
+    jednog poteza.
+
+   Koristite recnik words koji sam vec dovukao ovde da ne morate da ga kopirate.
+
+   Ako se zaglavite, pozovite sledece u konzoli u ovom direktorijumu:
+
+	cat hint1 | rev
+
+   Ako ni to ne pomogne, procitajte opet ceo ovaj zadatak, probajte jos malo stvari, pa onda probajte i:
+
+	cat hint2 | rev
+
+   Jednom kad resite zadatak, rezultat prosledite u fajl koji se zove "hangman.rezultat".
+
+
+
+
+Sada imate tri fajla cija imena se zavrsavaju na ".rezultat". Mrdnite ta tri fajla u ~/Trash, gde ce cekati nase sledece
+druzenje! Bas smo ~/Trash! Ovo hocu na majici hahaha
