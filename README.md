@@ -1,6 +1,8 @@
 Otvorite konzolu i kopirate sledeci red.
 
-  `git clone https://github.com/crvici-u-treningu/ti-si-sav-moj-tilda-trash`
+```
+  git clone https://github.com/crvici-u-treningu/ti-si-sav-moj-tilda-trash
+```
  
 Sad mozete uci u folder zvani `ti-si-sav-moj-tilda-trash` i tu otvoriti `SUBL.ME` u sublime text editoru.
 
